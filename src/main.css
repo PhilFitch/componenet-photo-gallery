@@ -4,15 +4,15 @@ body {
     background-repeat: no no-repeat;
 }
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
     height: 150px;
     align-items: center;
     background-color: rgb(225, 252, 252);
-}
+} */
 
-header h1 {
+/* header h1 {
     flex-grow: 1;
     font-family: 'Sigmar One', cursive;
     font-size: 40px;
@@ -28,20 +28,20 @@ main {
     width: 85%;
     margin: 0 auto;
     
-}
+} */
 
-ul {
+/* ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: flex-start;
-}
+} */
 
-.card-div {
+/* .card-div {
     justify-content: left;
-}
+} */
 
-li {
+/* li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,35 +53,35 @@ li {
     background: rgba(255, 192, 203, 0.461);
     border-radius: 15px;
     font-family: 'PT Sans', sans-serif;
-}
+} */
 
-li h2 {
+/* li h2 {
     margin-top: 12px;
     font-size: 1.5em;
     color: purple;
     text-align: center;
     text-shadow: 2px 2px 2px white;
-}
+} */
 
-li p {
+/* li p {
     margin-bottom: 15px;
     color: purple;
-}
+} */
 
-.image-container {
+/* .image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 65%;
     width: 65%;
-}
+} */
 
-.card-image {
+/* .card-image {
     object-fit: cover;
     height: 85%;
-}
+} */
 
-.drop-down {
+/* .drop-down {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -90,7 +90,7 @@ li p {
 select {
     width: 200px;
     font-family: 'PT Sans', sans-serif;
-}
+} */
 
 footer {
     display: flex;

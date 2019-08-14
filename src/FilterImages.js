@@ -2,36 +2,46 @@ import Component from './Component.js';
 
 class FilterImages extends Component {
     
-    
-    
-    
-    
-    
+    onRender(select) {
+        const onFilter = this.props.onFilter;
+
+        select.addEventListener('input', () => {
+            onFilter(select.value);
+        });
+    }
     
     renderHTML() {
-        // const hornCreatures = this.props.hornCreatures;
-        // const keyword = getUnique
+        const images = this.props.images;
+        const types = getUniqueTypes(images);
+        const optionsHTML = renderOptionsHTML(types);
 
         return /*html*/`
-            <section class="drop-down">
                 <select>
-                    <option>Narwhal</option>
-                    <option>Rhino</option>
-                    <option>Unicorn</option>
-                    <option>Unilego</option>
-                    <option>Triceratops</option>
-                    <option>Markhor</option>
-                    <option>Mouflon</option>
-                    <option>Addax</option>
-                    <option>Chameleon</option>
-                    <option>Lizard</option>
-                    <option>Dragon</option>
+                    <option>all</option>
+                    ${optionsHTML}
                 </select>
-            </section>
         `;
     }
 }
 
+function getUniqueTypes(images) {
+    const types = [];
+    images.forEach(image => {
+        if(!types.includes(image.keyword)) {
+            types.push(image.keyword);
+        }
+    });
+    types.sort();
+    return types;
+}
 
+function renderOptionsHTML(types) {
+    const optionsArray = types.map(keyword => {
+        return /*html*/`
+            <option value="${keyword}">${keyword}</option>
+        `;
+    });
+    return optionsArray.join('');
+}
 
 export default FilterImages;
