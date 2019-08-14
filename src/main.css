@@ -1,0 +1,112 @@
+body {
+    background-image: url("../assets/bubble-clipart-wallpaper-7.jpg");
+    background-size: cover;
+    background-repeat: no no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    background-color: rgb(225, 252, 252);
+}
+
+header h1 {
+    flex-grow: 1;
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+    color: purple;
+    margin-left: 40px;
+}
+
+.logo {
+    height: 80%;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-div {
+    justify-content: left;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    list-style-type: none;
+    margin: 0px 15px 15px 0px;
+    background: rgba(255, 192, 203, 0.461);
+    border-radius: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+li h2 {
+    margin-top: 12px;
+    font-size: 1.5em;
+    color: purple;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+
+li p {
+    margin-bottom: 15px;
+    color: purple;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
+    width: 65%;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 85%;
+}
+
+.drop-down {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+select {
+    width: 200px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(225, 252, 252);
+    display: fixed;
+    position: bottom;
+}
+
+footer p {
+    margin: 0px 15px;
+}
+
+footer img {
+    max-height: 80%;
+    margin: 0px 15px;
+}

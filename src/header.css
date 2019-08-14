@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    background-color: rgb(225, 252, 252);
+}
+
+header h1 {
+    flex-grow: 1;
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+    color: purple;
+    margin-left: 40px;
+}
+
+.logo {
+    height: 80%;
+}

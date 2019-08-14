@@ -1,0 +1,10 @@
+.drop-down {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+select {
+    width: 200px;
+    font-family: 'PT Sans', sans-serif;
+}
