@@ -16,11 +16,7 @@ class ImageList extends Component {
     
     renderHTML() {
         return /*html*/`
-            <section class="card-section">
-                <div class="card-div">
-                    <ul class="list"></ul>
-                </div>
-            </section>
+            <ul class="list"></ul>
         `;
     }
 }

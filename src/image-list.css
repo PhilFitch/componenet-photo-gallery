@@ -1,7 +1,3 @@
-.card-div {
-    justify-content: left;
-}
-
 ul {
     display: flex;
     justify-content: space-evenly;

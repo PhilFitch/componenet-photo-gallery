@@ -5,6 +5,7 @@ class ImageItem extends Component {
         const image = this.props.image;
 
         return /*html*/`
+        
             <li title="${image.description}">
                 <h2>${image.title}</h2>
                 <div class="image-container">
