@@ -1,0 +1,47 @@
+h2 {
+    margin-top: 12px;
+    font-size: 1.5em;
+    color: purple;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65%;
+    width: 65%;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 85%;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    list-style-type: none;
+    margin: 0px 15px 15px 0px;
+    background: rgba(255, 192, 203, 0.461);
+    border-radius: 15px;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+li h2 {
+    margin-top: 12px;
+    font-size: 1.5em;
+    color: purple;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+
+li p {
+    margin-bottom: 15px;
+    color: purple;
+}
